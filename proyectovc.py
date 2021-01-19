@@ -24,7 +24,7 @@ from keras.applications.vgg16 import VGG16
 
 model = VGG16()
 
-"""funcion para segmentar la imagen restando una imagen de fondo con una imagen con el oobjeto."""
+"""funcion para segmentar la imagen restando una imagen de fondo con una imagen con el oobjeto(los valores del threshold deben variar segun el video)."""
 
 def SEGF(IMGF, IMGNF):##recibe 2 imagenes RGB
   i1=IMGF.astype(np.int16)
